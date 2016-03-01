@@ -1,0 +1,15 @@
+name: ToSpawn
+main: tospawn.ToSpawn
+api: ["1.0.0"]
+version: "1.0.0"
+author: maru
+
+commands:
+ spawn:
+  description: "teleport to spawn"
+  usage: "/spawn"
+  permission: tospawn.commands.spawn
+  
+permissions:
+ tospawn.commands.spawn:
+  default: true
